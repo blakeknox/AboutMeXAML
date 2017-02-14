@@ -3,9 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AboutMeXAML"
              x:Class="AboutMeXAML.MainPage">
-
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <ContentPage.Title>Hello</ContentPage.Title>
+  
+  <ScrollView Orientation="Vertical">
+  <StackLayout VerticalOptions="Center">
+    <StackLayout.Children>
+      <Label Text="Blake - That is me and I am the father of the family. I am currently a CNC Machinist, and have been for the last 6 years. I should be done with school this fall."
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="Center" 
+           FontAttributes="Bold"
+           TextColor="Red"
+           FontSize="24"/>
+      <Label Text="Chelsea - Is the mother and she is also in college. She is in her last class right now. "
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="Center" 
+           FontSize="28"/>
+      <Label Text="Karson - He is our 6 year old son, and the absolute bright spot in our lifes. He is in first grade and reading like a champ."
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="Center"
+           FontSize="34"
+           FontAttributes="Bold"
+           TextColor="Green"
+           BackgroundColor="Yellow"
+           />
+      <Label Text="Tyke - He is a rescued dog. We got him from a rescue house that my step-sister runs. We got lucky because he is truely a one in a million animal."
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="FillAndExpand"
+           FontSize="20"
+           FontAttributes="Bold"/>
+    </StackLayout.Children>
+  </StackLayout>
+  </ScrollView>
 
 </ContentPage>
