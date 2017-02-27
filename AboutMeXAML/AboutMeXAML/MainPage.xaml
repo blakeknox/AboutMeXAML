@@ -4,10 +4,16 @@
              xmlns:local="clr-namespace:AboutMeXAML"
              x:Class="AboutMeXAML.MainPage">
   <ContentPage.Title>Hello</ContentPage.Title>
-  
   <ScrollView Orientation="Vertical">
   <StackLayout VerticalOptions="Center">
     <StackLayout.Children>
+      <Label Text="Greetings, and Welcome to my family app. My Family Memebers are:"
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="Center" 
+           FontAttributes="Bold"
+           TextColor="Maroon"
+           BackgroundColor="White"
+           FontSize="36"/>
       <Label Text="Blake - That is me and I am the father of the family. I am currently a CNC Machinist, and have been for the last 6 years. I should be done with school this fall."
            VerticalOptions="FillAndExpand"
            HorizontalOptions="Center" 
@@ -17,8 +23,9 @@
       <Label Text="Chelsea - Is the mother and she is also in college. She is in her last class right now. "
            VerticalOptions="FillAndExpand"
            HorizontalOptions="Center" 
+           BackgroundColor="Green"
            FontSize="28"/>
-      <Label Text="Karson - He is our 6 year old son, and the absolute bright spot in our lifes. He is in first grade and reading like a champ."
+      <Label Text="Karson - He is our 6 year old son, and the absolute bright spot in our lifes. He is in first grade and reading like a champ. He is my mini me and that may be a bad thing in some ways, but he is perfect."
            VerticalOptions="FillAndExpand"
            HorizontalOptions="Center"
            FontSize="34"
@@ -30,6 +37,8 @@
            VerticalOptions="FillAndExpand"
            HorizontalOptions="FillAndExpand"
            FontSize="20"
+           TextColor="White"
+           BackgroundColor="Black"
            FontAttributes="Bold"/>
     </StackLayout.Children>
   </StackLayout>
