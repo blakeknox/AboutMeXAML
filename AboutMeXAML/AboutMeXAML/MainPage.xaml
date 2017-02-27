@@ -25,7 +25,7 @@
            HorizontalOptions="Center" 
            BackgroundColor="Green"
            FontSize="28"/>
-      <Label Text="Karson - He is our 6 year old son, and the absolute bright spot in our lifes. He is in first grade and reading like a champ. He is my mini me and that may be a bad thing in some ways, but he is perfect."
+      <Label Text="Karson - He is our 6 year old son, and the absolute bright spot in our lifes. He is in first grade and reading like a champ. He is my mini-me and that may be a bad thing in some ways, but he is perfect."
            VerticalOptions="FillAndExpand"
            HorizontalOptions="Center"
            FontSize="34"
